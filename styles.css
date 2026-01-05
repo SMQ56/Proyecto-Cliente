@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+header {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+header h1 {
+  margin: 0 0 10px;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 0 0 20px;
+  color: #b0b0b0;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  cursor: pointer;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  border: 1px solid #333;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #2a2a2a;
+  border-color: #444;
+}
+
+button:active {
+  background-color: #333;
+}
+
+main#app {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #181818;
+  border-radius: 8px;
+  min-height: 200px;
+}
